@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a462856935.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- js -->
+    <script src="js/main.js"></script>
+    <title>Task 1</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  mt-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LGMVIP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: rgb(248, 170, 0);">One page promising to fill<br> all your needs!</h1>
+                    <p style="color: rgb(248, 170, 0);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        cumque excepturi porro vero..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: rgb(248, 170, 0);">One page promising to fill <br>all your needs!</h1>
+                    <p style="color: rgb(248, 170, 0);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        cumque excepturi porro vero..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: rgb(248, 170, 0);">One page promising to fill <br>all your needs!</h1>
+                    <p style="color: rgb(248, 170, 0);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        cumque excepturi porro vero..</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</body>
+<!-- slider ends -->
+<!-- services section -->
+<section class="services-container">
+    <h1 class="h-primary center">Popular travelling places</h1>
+    <div id="services">
+        <div class="box">
+            <img src="img/disney.jpg" alt="">
+            <div class="image__overlay image__overlay--primary">
+                <div class="image__title"><button id="btn">Book Now</button></div>
+            </div>
+            <div class="card-text">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h5 id="number">
+                <pre>1.</pre>
+            </h5>
+            <h2 class="h-secondary center">Disney Land </h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sapiente vero sed
+                consequatur error officiis repellendus molestias quia blanditiis voluptatibus nostrum mollitia
+                cupiditate ut maxime, alias doloribus amet repellat nam ipsum doloremque impedit expedita.</p>
+
+
+            <span class="fas fa-map-marker-alt"></span><span>HongKong</span>
+            <span class="far fa-sun"> </span> 3 Nights
+            <span class="far fa-moon"> </span> 4 Days
+        </div>
+
+        <div class="box">
+            <img src="img/krabi.jpg" alt="" class="box2">
+            <div class="image__krabi image__krabi--primary">
+                <div class="image__title"><button id="btn">Book Now</button></div>
+            </div>
+
+            <div class="card-text" style="float: right;padding:3px;bottom:-1px;right:0;">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h5 id="number">
+                <pre>2.</pre>
+            </h5>
+            <h2 class="h-secondary center">Krabi</h2>
+            <p class="center p-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sapiente vero
+                sed consequatur error officiis repellendus molestias quia blanditiis voluptatibus nostrum mollitia
+                cupiditate ut maxime, alias doloribus amet repellat nam ipsum doloremque impedit expedita.</p>
+
+            <span class="fas fa-map-marker-alt"></span><span>Thailand</span>
+            <span class="far fa-sun"> </span> 4 Nights
+            <span class="far fa-moon"> </span> 5 Days
+        </div>
+
+        <div class="box">
+            <img src="img/siem.jpg" alt="" class="box3">
+            <div class="image__siem image__siem--primary">
+                <div class="image__title"><button id="btn">Book Now</button></div>
+            </div>
+
+            <div class="card-text">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <h5 id="number">
+                <pre>3.</pre>
+            </h5>
+
+            <h2 class="h-secondary center">siem reap</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sapiente vero sed
+                consequatur error officiis repellendus molestias quia blanditiis voluptatibus nostrum mollitia
+                cupiditate ut maxime, alias doloribus amet repellat nam ipsum doloremque impedit expedita.</p>
+
+            <span class="fas fa-map-marker-alt"></span><span>Cambodia</span>
+            <span class="far fa-sun"> </span> 3 Nights
+            <span class="far fa-moon"> </span> 4 Days
+
+
+        </div>
+    </div>
+
+</section>
+
+<!-- projects section starts -->
+<section class="projects" id="projects">
+    <h1 class="heading" style="text-align:center;">Our <span>Projects</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="img/1.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h3>South India</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure, vitae autem voluptatem
+                    nobis modi omnis soluta. Aperiam, dolore eius?</p>
+                <a href="#" class="btn">View More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h3>West India </h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure, vitae autem voluptatem
+                    nobis modi omnis soluta. Aperiam, dolore eius?</p>
+                <a href="#" class="btn">View More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h3>North India</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure, vitae autem voluptatem
+                    nobis modi omnis soluta. Aperiam, dolore eius?</p>
+                <a href="#" class="btn">View More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/4.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h3>East India</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure, vitae autem voluptatem
+                    nobis modi omnis soluta. Aperiam, dolore eius?</p>
+                <a href="#" class="btn">View More</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- projects section ends -->
+<!-- pricing section starts -->
+<section class="pricing" id="pricing">
+    <h2 class="heading" style="text-align:center; font-size: 4rem;">Package <span>list</span></h2>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="title">
+                <h2>personal</h2>
+                <div class="price">
+                    <span>$19000</span>
+                </div>
+            </div>
+            <div class="desc">
+                <ul>
+                    <li><span>2</span> People</li>
+                    <li><span>4 to 5</span> Days stay</li>
+                    <li><span>Air or Land </span>Travalling</li>
+                    <li><span>30 days</span> Cancellation policy</li>
+                    <li><span>Easy</span> returns</li>
+                </ul>
+                <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="title">
+                <h2>premium</h2>
+                <div class="price">
+                    <span>$39000</span>
+                </div>
+            </div>
+            <div class="desc">
+                <ul>
+                    <li><span>10</span> People</li>
+                    <li><span>7 to 8</span> Days stay</li>
+                    <li><span>Air or Land</span> Travalling</li>
+                    <li><span>30 days</span> Cancellation policy</li>
+                    <li><span>Easy</span> returns</li>
+                </ul>
+                <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="title">
+                <h2>business</h2>
+                <div class="price">
+                    <span>$56000</span>
+                </div>
+            </div>
+            <div class="desc">
+                <ul>
+                    <li><span>Family</span> Package</li>
+                    <li><span>7 to 8</span> Days stay</li>
+                    <li><span>cruise</span> booking</li>
+                    <li><span>30 days</span> Cancellation policy</li>
+                    <li><span>Easy</span> returns</li>
+                </ul>
+                <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- pricing section ends -->
+<!-- video projects section starts -->
+<section class="videopro" id="videopro">
+
+    <h2 class="heading" style="text-align: center; font-size: 3.5rem;">Places <span>Glance</span></h2>
+
+    <div class="swiper-container video-slider">
+
+        <div class="swiper-wrapper video-wrapper">
+
+            <div class="swiper-slide">
+                <div class="video">
+                    <video src="img/vid5.mp4" autoplay controls loop muted></video>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="video">
+                    <video src="img/vid1.mp4" autoplay controls loop muted></video>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="video">
+                    <video src="img/vid2.mp4" autoplay controls loop muted></video>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="video">
+                    <video src="img/vid3.mp4" autoplay controls loop muted></video>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="video">
+                    <video src="img/vid4.mp4" autoplay controls loop muted></video>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+<!-- video projects section ends -->
+<!-- team section starts -->
+<section class="team" id="team">
+    <h2 class="heading" style="text-align: center; font-size: 3.5rem;">Team <span>Members</span></h2>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="image">
+                <img src="img/w1.jpg" alt="">
+
+                <div class="social">
+                    <a class="ri-linkedin-fill"><i class="fab fa-linkedin"></i></a>
+                    <a class="ri-twitter-line"><i class="fab fa-twitter-square"></i></a>
+                    <a class="ri-instagram-line"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <h3>SARA JOHNSON</h3>
+            <span>Creative Head</span>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="img/m1.jpg" alt="">
+
+                <div class="social">
+                    <a class="ri-linkedin-fill"><i class="fab fa-linkedin"></i></a>
+                    <a class="ri-twitter-line"><i class="fab fa-twitter-square"></i></a>
+                    <a class="ri-instagram-line"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <h3>MATT ALEX</h3>
+            <span>Art Director</span>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="img/m2.jpg" alt="">
+
+                <div class="social">
+                    <a class="ri-linkedin-fill"><i class="fab fa-linkedin"></i></a>
+                    <a class="ri-twitter-line"><i class="fab fa-twitter-square"></i></a>
+                    <a class="ri-instagram-line"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <h3>CHRIS PHILIPS</h3>
+            <span>Senior Designer</span>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="img/m3.jpg" alt="">
+
+                <div class="social">
+                    <a class="ri-linkedin-fill"><i class="fab fa-linkedin"></i></a>
+                    <a class="ri-twitter-line"><i class="fab fa-twitter-square"></i></a>
+                    <a class="ri-instagram-line"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <h3>JIMMY SMITH</h3>
+            <span>Marketing Manager</span>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="img/m4.jpg" alt="">
+
+                <div class="social">
+                    <a class="ri-linkedin-fill"><i class="fab fa-linkedin"></i></a>
+                    <a class="ri-twitter-line"><i class="fab fa-twitter-square"></i></a>
+                    <a class="ri-instagram-line"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <h3>ARIN</h3>
+            <span>SEO Monster</span>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="img/m5.jpg" alt="">
+
+                <div class="social">
+                    <a class="ri-linkedin-fill"><i class="fab fa-linkedin"></i></a>
+                    <a class="ri-twitter-line"><i class="fab fa-twitter-square"></i></a>
+                    <a class="ri-instagram-line"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <h3>CELIEN JOHN</h3>
+            <span>Senior Designer</span>
+        </div>
+
+    </div>
+</section>
+<!-- team section ends -->
+<!-- life in composey starts -->
+<section class="life" id="life">
+    <h2 class="heading" style="text-align: center; font-size: 3.5rem; margin: -10px;">Gallery </h2>
+
+    <div class="container">
+
+        <img id="curimg" class="center" src="img/5.jpg">
+
+        <div class="wrapper">
+            <div id="img-gallery">
+                <span id="prev" class="prev-next fas fa-chevron-left"></span>
+                <div id="lifeimg-gallery">
+
+                    <img src="img/6.jpg" alt="" class="lifeimg">
+                    <img src="img/7.jpg" alt="" class="lifeimg">
+                    <img src="img/8.jpg" alt="" class="lifeimg">
+                    <img src="img/9.jpg" alt="" class="lifeimg">
+                    <img src="img/10.jpg" alt="" class="lifeimg">
+                    <img src="img/11.jpg" alt="" class="lifeimg">
+                    <img src="img/12.jpg" alt="" class="lifeimg">
+                    <img src="img/13.jpg" alt="" class="lifeimg">
+                    <img src="img/14.jpg" alt="" class="lifeimg">
+                    <img src="img/15.jpg" alt="" class="lifeimg">
+
+
+                </div>
+                <span id="next" class="prev-next fas fa-chevron-right"></span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- life in composey ends -->
+<!-- blog section starts -->
+<section class="blog" id="blog">
+    <h2 class="heading" style="text-align: center; font-size: 3.5rem;">Travel <span>Blogs</span></h2>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="img/team1.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h3>Lorem Ipsum Sit amet</h3>
+                <span>12 Sept, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure, vitae autem nobis modi
+                    omnis soluta. Aperiam, dolore eius.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/team2.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h3>Lorem Ipsum Sit amet</h3>
+                <span>24 Sept, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure, vitae autem nobis modi
+                    omnis soluta. Aperiam, dolore eius.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/team3.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h3>Lorem Ipsum Sit amet</h3>
+                <span>1 Oct, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure, vitae autem nobis modi
+                    omnis soluta. Aperiam, dolore eius.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- blog section ends -->
+<!-- contact section starts -->
+<section class="contact" id="contact">
+    <!-- <h2 class="heading">contact</h2> -->
+
+    <div class="row">
+        <div class="col">
+            <div id="map"></div>
+        </div>
+        <div class="col">
+            <form action="#">
+
+                <h2>Contact Us</h2>
+
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <i class='fas fa-user'></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Email" required>
+                        <i class='fas fa-envelope'></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="phone" placeholder="Phone" required>
+                        <i class="fas fa-phone-volume"></i>
+
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Message" name="message" required></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<main class="footer">
+
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Address</h3>
+            <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit.<br> Itaque, temporibus? Nesciuntv<br> ipsum
+                dolor sit, amet.</p>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i>+123-456-7890</p>
+            <p> <i class="fas fa-envelope"></i>info@travelling.com</p>
+            <p> <i class="fas fa-map-marked-alt"></i>Navi Mumbai, India-400601</p>
+
+        </div>
+
+        <div class="box">
+            <div class="share">
+                <a href="#" class="fab fa-youtube"></a>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+
+        </div>
+
+</main>
+<!-- footer section ends -->
+
+<!-- scroll top btn -->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzUJedsm7ickzMeX5oZMKYwmxxZZkOETo&callback=initMap&libraries=&v=weekly"
+    async></script>
+
+</html>
